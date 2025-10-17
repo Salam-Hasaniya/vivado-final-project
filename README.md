@@ -58,15 +58,15 @@ The final application simulates a digital lock system that uses joystick and key
 - Firmware handles real-time joystick polling, keyboard interrupts, VGA display updates, and motor actuation logic.  
 
 ### System Hierarchy  
-The FPGA design follows a vanilla system hierarchy:  
-top/
-├── bridge/ # MMIO FPro bridge
-├── cores/ # Custom peripheral cores (GPO, GPI, Timer, SPI, PS2, VGA)
-├── microblaze/ # Soft-core processor integration
-├── main.c # Application firmware
-└── linker.ld # Memory mapping configuration
+The FPGA design follows a vanilla system hierarchy:
 
----
+    top/
+    ├── bridge/           # MMIO FPro bridge
+    ├── cores/            # Custom peripheral cores (GPO, GPI, Timer, SPI, PS2, VGA)
+    ├── microblaze/       # Soft-core processor integration
+    ├── main.c            # Application firmware
+    └── linker.ld         # Memory mapping configuration
+
 
 ## Hardware Requirements  
 - CHU or Nexys A7 FPGA board  
