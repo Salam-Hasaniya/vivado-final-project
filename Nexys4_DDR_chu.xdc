@@ -315,4 +315,3 @@ set_property -dict {PACKAGE_PIN F3 IOSTANDARD LVCMOS33} [get_ports {pmod_jd_ctrl
 
 
 
-
