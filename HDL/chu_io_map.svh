@@ -13,7 +13,7 @@
 `define S1_UART1      1
 `define S2_LED        2
 `define S3_SW         3
-`define S4_JSTK      4
+`define S4_JSTK       4
 `define S5_XDAC       5
 `define S6_PWM        6
 `define S7_BTN        7
@@ -40,4 +40,3 @@
 `define FRAME_BASE   BRIDGE_BASE+FRAME_OFFSET
 
 `endif //_CHU_IO_MAP
-
