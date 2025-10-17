@@ -115,7 +115,7 @@ The FPGA design follows a vanilla system hierarchy:
 ## Related Work  
 This Lock System Controller was developed as a standalone application on the custom FPGA microcontroller platform designed in ECE coursework.  
 For additional Vivado-based labs and foundational projects, refer to:  
-**[Vivado Projects Repository – Salam-Hasaniya/vivado-projects-ece4310](https://github.com/Salam-Hasaniya/vivado-projects-ece4310)**  
+**[FPGA Projects Repository – Salam-Hasaniya/fpga-projects-calpoly](https://github.com/Salam-Hasaniya/fpga-projects-calpoly)**
 
 ---
 
